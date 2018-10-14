@@ -1,0 +1,59 @@
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    diff -u immediately brings up both additions (+) and deletions (-) in the
+    two files, eliminating the requirement to manually compare the text line
+    by line. This is especially pertinent where a program's code can stretch
+    to hundreds (or more) of lines. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You could undo changes, as well as see where new code changes have lead to
+    issues and bugs
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    With Google Docs, the version is saved automatically with almost every
+    change. This will lead to a large amount of versions, whereby it will be
+    difficult to differentiate more important changes than others.
+
+    Also, a version could be saved in a place that wouldn't make much sense,
+    such as in the middle of a file. Not only does this not make sense, but
+    the code would also not compile, either.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple files in one commit allows changes to be made product-wide
+    in a batch release.
+
+    /Because projects will have files that interlink and relate to each other.
+    So treating changes to a project, treating it as a whole is more stable
+    than treating versions of seperate files seperately.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log
+    this gives a log of all the commits in the repository
+
+    git log --stat
+    this includes overview stats of insertions/deletions for each commit, in the log
+
+    git diff
+    this compares two different commits, showing what specific lines of code 
+    were added/deleted
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Easy reversal – one can easily undo test codes. The retrieval of past
+    versions/repos is easily executed.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to use it to store my projects as I learn Java/other
+    languages, to be able to build a portfolio.
