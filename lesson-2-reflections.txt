@@ -25,8 +25,9 @@ What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
 		When experimenting, creating alternative versions of a program (ie 
-		translations), etc. Branching enables multiple versions of code to be
-		worked on safely and cleanly.
+		translations), or adding a fix to code that already has more than one branch 
+		etc. Branching enables multiple versions of code to be worked on safely and
+		cleanly.
 
 How do the diagrams help you visualize the branch structure?
 
