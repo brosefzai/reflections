@@ -35,8 +35,12 @@ How do the diagrams help you visualize the branch structure?
 		They also help highlight that 'branches' are in themselves an entity, and are
 		not just a collection of commits. This also means that a new commit can be
 		outside a branch, and so can be 'lost' if not having been addressed
-		appropriately. Here, we then use git checkout -b new_branch_name to 
-		create a new branch, and to switch to it, in order for our
+		appropriately. This occurs if an edit has been made to a previous commit,
+		and which takes the edit away from the master branch. The edit cannot be
+		assigned to the same branch or it will over-write the existing (master)
+		branch material; and so is declared without a home branch (detached head).
+		Here, we then use git checkout -b new_branch_name to 
+		create a new branch for it, and then switch to it, in order for our
 		commit-in-limbo (currently in the purgatory stage) to be officially
 		assigned a branch and thus committed.
 
