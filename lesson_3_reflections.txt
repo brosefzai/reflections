@@ -42,4 +42,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    The same reason why you'd have a seperate branch in the first place.
+    To test changes experimental changes in a version of the program proper.
