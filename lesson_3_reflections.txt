@@ -7,7 +7,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    The same reason why commits are manual and not auto-saving. The coder/user
+    defines the logical step, both where a commit will be published, and thus
+    where a change is synced.
+    Also, some changes might not be ready for public viewing; and so work done
+    on one machine might want to be pushed once it is deemed ready, in a batch
+    of commits.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
