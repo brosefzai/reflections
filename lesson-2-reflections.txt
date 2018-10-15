@@ -47,9 +47,22 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-
+		Merging two branches together means that we can incorporate experimental
+		changes we had made in another (temporary) branch into the formal build
+		branch. This entails the collapsing of the two branches back into one.
+		This doesn't automatically delete the old (experimental) branch, however;
+		and this branch may now be deleted without threat of losing its commits.
+		git branch -d [branch to be deleted if so wished].
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
 
-
+		Git accepts all additive changes, and all unanimous deletions. These are
+		uncontested. These occur where the ancestral master and one of the edits have
+		the same code, whilst the other edit adds new code seperately -- this is seen
+		as a novel addition. However, in cases where the ancestral master code differ
+		with both edits; this is a conflict that git is not allowed to arbitrate as 
+		it has no arbitration rule to follow.
+		Pros -- automatic merging is effortless, quick, and never misses 
+		code. Cons -- the merger may have been too enthusiastic in it's 
+		acceptance of all conflictless edits, resulting in bloat.
