@@ -17,7 +17,14 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    branch: to investigate a different version of the program
+        use locally and experimentally
+    clone: to download a repo to your local machine
+        to download a repo. Either one that's already on your GH account, or
+        one that's been forked from another
+    fork: to copy a repo from one account to another on GitHub
+        to copy out someone else's code into your account so that you can make
+        your own personalised amendments, while keeping credit/source
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
